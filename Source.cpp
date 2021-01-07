@@ -11,27 +11,23 @@ int main() {
 	cout << "Income array: " << endl;
 
 	for (i = 0; i < 10; i++) {
-		
-		 cout << arr[i] << " ";
+		                              
+		 cout << arr[i] << " ";    // output income array 
 
 	}
 	cout << endl << endl;
 	
-	int arr2[] { 0, 0, 0, 0, 0 };
-
 	for (i = 0; i < 5; i++) {
 
-		cout << arr[i] << " ";
+		cout << arr[i] << " ";     // output elements from 1 to 5
 
 	}
 
 	cout << endl;
 
-
-	
 	for (j = 5; j < 10; j++) {
 
-		cout << arr[j] << " ";
+		cout << arr[j] << " ";   // output elements from 6 to 10
 		
 	}
 	
