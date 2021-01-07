@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cstdlib>
+#include <array>
 using namespace std;
 
-int main() {
+void main() {
 	
 	int i;
 	
@@ -17,25 +18,36 @@ int main() {
 	}
 	cout << endl;
 	
-	cout << "Array elements from 1 to 5: " << endl;
+
+	
+	cout << endl;
+
+	int arr2[] = { 0,0,0,0,0 };
+
 
 	for (i = 0; i < 5; i++) {
 
+		arr2[i] = arr2[i] + arr[i];
+
 		cout << arr[i] << " ";
-				
+
 	}
 
 	cout << endl;
-	
-	cout << "Array elements from 5 to 10: " << endl;
+
+	int arr3[5] = { 0,0,0,0,0 };
+
 
 	for (i = 5; i < 10; i++) {
 
-		cout << arr[i] <<" ";
+		arr3[i] = arr3[i] + arr[i];
 
+		cout << arr[i] << " ";
+		
 	}
-	
-	cout << endl;
 
-	return 0;
+
+
+
+	//return;
 }
